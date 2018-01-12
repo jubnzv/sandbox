@@ -1,5 +1,11 @@
 // https://codefights.com/interview-practice/task/gX7NXPBrYThXZuanm
 
+// Definition for singly-linked list:
+// type ListNode struct {
+//   Value interface{}
+//   Next *ListNode
+// }
+
 package main
 
 func removeKFromList(l *ListNode, k int) *ListNode {
@@ -11,13 +17,26 @@ func removeKFromList(l *ListNode, k int) *ListNode {
 		return removeKFromList(l.Next, k)
 	}
 
-	for np, n := l, l.Next; n != nil; np, n = n, n.Next {
+	for np, n := l, l.Next; n != nil; {
 		if n.Value == k {
-			np.Next = n.Next
-			if n.Next != nil {
+			if n.Next == nil { // tail of list
+				n = nil
+				np.Next = n
+				break
+			}
+
+			if n.Next.Value == k { // sequence of k-symbols
 				n = n.Next
+				continue
+			} else { // single k
+				np.Next = n.Next
+				if n.Next != nil {
+					n = n.Next
+				}
 			}
 		}
+
+		np, n = n, n.Next
 	}
 
 	return l
