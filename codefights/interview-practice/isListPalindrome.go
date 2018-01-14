@@ -1,14 +1,14 @@
 package main
 
 import "fmt"
-import . "github.com/jubnzv/leetcode/util"
+import . "github.com/jubnzv/codefights/util"
 
 func debugPrint(mid, end, np, nn *ListNode) {
 	fmt.Println("mid: ", mid, "\tend: ", end)
 	fmt.Println("  mid prev: ", np, "\tmid next: ", nn, "\n")
 }
 
-func isPalindrome(head *ListNode) bool {
+func isListPalindrome(head *ListNode) bool {
 	if head == nil { //empty list
 		return true
 	}
@@ -23,7 +23,7 @@ func isPalindrome(head *ListNode) bool {
 	nn := mid.Next  // element next to the middle
 	head.Next = nil // fix tail of reversed list
 	if nn == nil {  // Two-elements list: bailing out
-		if np.Val == mid.Val {
+		if np.Value == mid.Value {
 			return true
 		} else {
 			return false
@@ -42,7 +42,7 @@ func isPalindrome(head *ListNode) bool {
 	debugPrint(mid, end, np, nn)
 
 	// Maybe even-size length list palindrome?
-	if mid.Val == nn.Val && np.Val != nn.Val {
+	if mid.Value == nn.Value && np.Value != nn.Value {
 		tmp := mid
 		mid.Next = np
 		np = tmp
@@ -52,8 +52,8 @@ func isPalindrome(head *ListNode) bool {
 
 	// Iterate mid-head (via new reversed list) and mid-tail
 	for ; nn != nil && np != nil; np, nn = np.Next, nn.Next {
-		fmt.Println(np.Val, nn.Val)
-		if np.Val != nn.Val {
+		fmt.Println(np.Value, nn.Value)
+		if np.Value != nn.Value {
 			return false
 		}
 
