@@ -14,3 +14,4 @@ Path|Description
 | **codefights** | Solutions for [codefights.com](https://www.codefights.com/) problems |
 | **hackerrank** | Solutions for [hackerrank.com](https://www.hackerrank.com/) problems |
 | **leetcode** | Solutions for [leetcode.com](https://leetcode.com/) problems |
+| **geeksforgeeks** | Solutions for [geeksforgeeks.com](https://practice.geeksforgeeks.org) practice challenges |
