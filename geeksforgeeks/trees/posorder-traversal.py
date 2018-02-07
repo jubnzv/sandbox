@@ -52,3 +52,4 @@ def postorder_traversal_gen(node):
 def postorderTraversal(root):
     for node_data in postorder_traversal_gen(root):
         print(node_data, end=' ')
+    print()

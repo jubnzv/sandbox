@@ -43,8 +43,9 @@ class GfG:
                 yield node_data
             for node_data in self.preorder_traversal_gen(node.right):
                 yield node_data
-    
+
     def preorder(self, node):
         gen = self.preorder_traversal_gen(node)
         for node_data in gen:
             print(node_data, end=' ')
+        print()

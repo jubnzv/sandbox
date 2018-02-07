@@ -53,3 +53,4 @@ def inorderTraversal(root):
     gen = inorder_traversal_gen(root)
     for node in gen:
         print(node.data, end=' ')
+    print()
