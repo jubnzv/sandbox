@@ -10,6 +10,7 @@ Path | Description
 Path|Description
 --- | ---
 | **euler** | Sources for [Project Euler](https://projecteuler.net/) problems |
+| **exercism** | Solutions for [exercism.io](https://exercism.io/) tracks|
 | **codewars** | Solutions for [codewars.com](https://codewars.com/) katas |
 | **codefights** | Solutions for [codefights.com](https://www.codefights.com/) problems |
 | **hackerrank** | Solutions for [hackerrank.com](https://www.hackerrank.com/) problems |

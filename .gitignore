@@ -1,0 +1,8 @@
+venv
+*.log
+.ropeproject
+__pycache__
+.pytest_cache
+_trial_temp
+*.pyc
+.solution.json
