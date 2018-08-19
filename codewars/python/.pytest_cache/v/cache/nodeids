@@ -1,0 +1,4 @@
+[
+  "tests/test_k_primes.py::test_count_prime_factors",
+  "tests/test_k_primes.py::test_count_Kprimes"
+]

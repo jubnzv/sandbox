@@ -18,7 +18,8 @@ def solution(number):
         for n in range(max_num):
             if n % 3 == 0 or n % 5 == 0:
                 yield n
-    return reduce(add, gen(number))
+    if number: return reduce(add, gen(number))
+    else: return 0
 
 if __name__ == '__main__':
     print(solution(90000000))

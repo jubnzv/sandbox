@@ -16,3 +16,4 @@ if __name__ == '__main__':
     print(solve("codewars", 1, 5))
     print(solve("codingIsFun", 2, 100))
     print(solve("abcefghijklmnopqrstuvwxyz", 0, 20))
+def solve(st, a, b): return ''.join([st[:a], ''.join(reversed(st[a:b+1])), st[b+1:]])
