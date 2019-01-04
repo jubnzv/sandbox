@@ -1,9 +1,0 @@
-{
-    "python.unitTest.pyTestArgs": [
-        "codewars/python/tests",
-        "-x"
-    ],
-    "python.unitTest.unittestEnabled": false,
-    "python.unitTest.nosetestsEnabled": false,
-    "python.unitTest.pyTestEnabled": true
-}
