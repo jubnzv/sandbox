@@ -1,0 +1,27 @@
+* PIC in shared libraries
+
+** [[file:pic_dataonly/][pic_dataonly]]
+
+[[https://eli.thegreenplace.net/2011/11/03/position-independent-code-pic-in-shared-libraries/][Position Independent Code (PIC) in shared libraries]]
+
+Dependencies (Debian 10):
+#+BEGIN_SRC bash
+apt-get install lib32gcc-8-dev
+#+END_SRC
+
+#+BEGIN_SRC bash
+make
+objdump -D -m intel libmlpic_dataonly.so
+readelf -S libmlpic_dataonly.so
+#+END_SRC
+
+* [[file:elf_relocation_1/][elf_relocation_1]]
+
+[[https://habr.com/ru/post/199090/][habr: Практическое применение LD_PRELOAD или замещение функций в Linux]]
+
+#+BEGIN_SRC bash
+make
+./main
+LD_PRELOAD=$(realpath lib.so) ./main
+#+END_SRC
+
