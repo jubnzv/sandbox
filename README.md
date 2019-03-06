@@ -1,11 +1,14 @@
 # sandbox
 
+In this repository I practice learn-by-doing approach to get experience in various topics.
+
 ## Books
 
 Path | Description
 --- | ---
 | **HR** | Examples and excercies from [The Haskell Road to Logic, Maths and Programming](https://www.amazon.com/Haskell-Logic-Programming-Second-Computing/dp/0954300696) book |
 | **AlgorithmDesign** | [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) by Steven S. Skiena |
+| **UNPv2** | [UNIX Network Programming, Volume 2: Interprocess Communications](https://www.amazon.com/dp/0130810819/) by W. Richard Stevens |
 
 ## Challenges
 
