@@ -26,4 +26,7 @@ Path|Description
 
 Path|Description
 --- | ---
-| **Rust** | Random Rust sources written by me |
+| [C](./etc/C/) | C cheatsheet: various code snippets |
+| [Rust](./etc/Rust/) | Random Rust sources written by me |
+| [unw](./etc/Rust/unw/) | Tiny TCP implementation on Rust. Non finished. |
+
