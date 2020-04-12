@@ -2,27 +2,27 @@
 
 In this repository I practice learn-by-doing approach to get experience in various topics.
 
-## Books
-
-Path | Description
---- | ---
-| **HR** | Examples and excercies from [The Haskell Road to Logic, Maths and Programming](https://www.amazon.com/Haskell-Logic-Programming-Second-Computing/dp/0954300696) book |
-| **AlgorithmDesign** | [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) by Steven S. Skiena |
-| **UNPv2** | [UNIX Network Programming, Volume 2: Interprocess Communications](https://www.amazon.com/dp/0130810819/) by W. Richard Stevens |
-
-## Challenges
+### Solutions for coding challenges websites
 
 Path|Description
 --- | ---
-| **euler** | Sources for [Project Euler](https://projecteuler.net/) problems |
-| **exercism** | Solutions for [exercism.io](https://exercism.io/) tracks|
-| **codewars** | Solutions for [codewars.com](https://codewars.com/) katas |
-| **codefights** | Solutions for [codefights.com](https://www.codefights.com/) problems |
-| **hackerrank** | Solutions for [hackerrank.com](https://www.hackerrank.com/) problems |
-| **leetcode** | Solutions for [leetcode.com](https://leetcode.com/) problems |
-| **geeksforgeeks** | Solutions for [geeksforgeeks.com](https://practice.geeksforgeeks.org) practice challenges |
+| [euler](./Challenges/euler) | [Project Euler](https://projecteuler.net/) |
+| [exercism](./Challenges/excercism) | [exercism.io](https://exercism.io/) |
+| [codewars](./Challenges/codewars) | [codewars.com](https://codewars.com/) |
+| [codefights](./Challenges/codefights) | [codefights.com](https://www.codefights.com/) |
+| [hackerrank](./Challenges/hackerrank) | [hackerrank.com](https://www.hackerrank.com/) |
+| [leetcode](./Challenges/leetcode) | [leetcode.com](https://leetcode.com/) |
+| [geeksforgeeks](./Challenges/geeksforgeeks) | [geeksforgeeks.com](https://practice.geeksforgeeks.org) |
 
-## etc.
+### Exercises from the books
+
+Path | Description
+--- | ---
+| [HR](./Books/HR/) | [The Haskell Road to Logic, Maths and Programming](https://www.amazon.com/Haskell-Logic-Programming-Second-Computing/dp/0954300696) book |
+| [AlgorithmDesign](./Books/AlgorithmDesign/) | [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) by Steven S. Skiena |
+| [UNPv2](./Books/UNPv2/) | [UNIX Network Programming, Volume 2: Interprocess Communications](https://www.amazon.com/dp/0130810819/) by W. Richard Stevens |
+
+### Toy projects
 
 Path|Description
 --- | ---
