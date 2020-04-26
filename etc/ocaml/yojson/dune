@@ -1,0 +1,10 @@
+(executable
+ (public_name yojson_examples)
+ (libraries yojson core ppx_deriving_yojson.runtime)
+ (preprocess
+  (pps ppx_deriving_yojson)))
+
+(env
+ (dev
+  (flags
+   (:standard -warn-error -A))))

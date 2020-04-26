@@ -1,0 +1,10 @@
+{
+  "TestRoot.$schema": [
+    {
+      "kind": "PropertyNameHint",
+      "arguments": {
+        "pythonPropertyName": "schemaUri"
+      }
+    }
+  ]
+}
