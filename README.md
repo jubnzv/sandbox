@@ -1,32 +1,24 @@
 # sandbox
 
-In this repository I practice learn-by-doing approach to get experience in various topics.
+#### Solutions for various coding challenges
+* [exercism](./Challenges/excercism) – https://exercism.io/
+* [codewars](./Challenges/codewars) – https://codewars.com/
+* [codefights](./Challenges/codefights) – https://www.codefights.com/
+* [hackerrank](./Challenges/hackerrank) – https://www.hackerrank.com/
+* [leetcode](./Challenges/leetcode) – https://leetcode.com/
+  + [leetcode 30 day challenge](./Challenges/leetcode/30-day-challenge/)
+* [geeksforgeeks](./Challenges/geeksforgeeks) – https://practice.geeksforgeeks.org/
 
-### Solutions for coding challenges websites
+#### Exercises from the books
+* [Essentials-of-Compilation](./Books/Essentials-of-Compilation/) – A [book](https://github.com/IUCompilerCourse/Essentials-of-Compilation) about compiling Racket to x86-64 assembly. See also public [support code](https://github.com/IUCompilerCourse/public-student-support-code).
+* [HR](./Books/HR/) – [The Haskell Road to Logic, Maths and Programming](https://www.amazon.com/Haskell-Logic-Programming-Second-Computing/dp/0954300696)
+* [AlgorithmDesign](./Books/AlgorithmDesign/) – [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) by Steven S. Skiena
+* [UNPv2](./Books/UNPv2/) – [UNIX Network Programming, Volume 2: Interprocess Communications](https://www.amazon.com/dp/0130810819/) by W. Richard Stevens
 
-Path|Description
---- | ---
-| [euler](./Challenges/euler) | [Project Euler](https://projecteuler.net/) |
-| [exercism](./Challenges/excercism) | [exercism.io](https://exercism.io/) |
-| [codewars](./Challenges/codewars) | [codewars.com](https://codewars.com/) |
-| [codefights](./Challenges/codefights) | [codefights.com](https://www.codefights.com/) |
-| [hackerrank](./Challenges/hackerrank) | [hackerrank.com](https://www.hackerrank.com/) |
-| [leetcode](./Challenges/leetcode) | [leetcode.com](https://leetcode.com/) |
-| [geeksforgeeks](./Challenges/geeksforgeeks) | [geeksforgeeks.com](https://practice.geeksforgeeks.org) |
-
-### Exercises from the books
-
-Path | Description
---- | ---
-| [HR](./Books/HR/) | [The Haskell Road to Logic, Maths and Programming](https://www.amazon.com/Haskell-Logic-Programming-Second-Computing/dp/0954300696) book |
-| [AlgorithmDesign](./Books/AlgorithmDesign/) | [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202) by Steven S. Skiena |
-| [UNPv2](./Books/UNPv2/) | [UNIX Network Programming, Volume 2: Interprocess Communications](https://www.amazon.com/dp/0130810819/) by W. Richard Stevens |
-
-### Toy projects
-
-Path|Description
---- | ---
-| [C](./etc/C/) | C cheatsheet: various code snippets |
-| [Rust](./etc/Rust/) | Random Rust sources written by me |
-| [unw](./etc/Rust/unw/) | Tiny TCP implementation on Rust. Non finished. |
+#### Toy projects, random code snippets
+* [C](./etc/C/)
+* [Python](./etc/Python/)
+* [OCaml](./etc/ocaml/)
+* [Rust](./etc/Rust/)
+  + [unw](./etc/Rust/unw/) – Tiny TCP implementation
 

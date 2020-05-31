@@ -1,0 +1,4 @@
+\ It's one of the first Forth or Factor kata.
+\ The aim is to calculate the value of a * x * x + b * x + c where a, b, c, x
+\ are given integers on the stack in the order: c b a x (< top of the stack).
+: trino ( c b a x -- a*x*x+b*x+c ) over over * over * rot drop rot rot * + + ;
