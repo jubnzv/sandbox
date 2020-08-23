@@ -1,7 +1,0 @@
-[package]
-name = "string-ends-with"
-version = "0.1.0"
-authors = ["Georgy Komarov <jubnzv@gmail.com>"]
-edition = "2018"
-
-[dependencies]

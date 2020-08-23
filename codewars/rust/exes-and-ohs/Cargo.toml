@@ -1,7 +1,0 @@
-[package]
-name = "codewars"
-version = "1.0.0"
-authors = ["Georgy Komarov <jubnzv@gmail.com>"]
-
-[dependencies]
-
