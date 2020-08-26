@@ -1,11 +1,4 @@
-# Algorithms sandbox
-
-## Implementation of the algorithms
-
-* [algorithms](./algorithms)
-  + [WeightedQuickUnionUF.cpp](./algorithms/WeightedQuickUnionUF.cpp)
-
-## Practice
+# sandbox
 
 * [exercism](./excercism) – https://exercism.io/
 * [codewars](./codewars) – https://codewars.com/

@@ -189,5 +189,4 @@ Cargo.lock
 **/*.rs.bk
 
 *.dump
-Elbrus/*
 
