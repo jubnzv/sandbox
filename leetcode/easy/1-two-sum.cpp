@@ -27,7 +27,7 @@ public:
 
     for (unsigned i = 0; i < nums.size() - 1; i++) {
       for (unsigned j = i + 1; j < nums.size(); j++) {
-        if ((nums.at(i) + nums.at(j)) == target) {
+        if ((nums[i] + nums[j]) == target) {
           result.push_back(i);
           result.push_back(j);
           break;
@@ -44,13 +44,13 @@ public:
     vector<int> result;
 
     for (int i = 0; i < nums.size(); i++) {
-      int complement = target - nums.at(i);
+      int complement = target - nums[i];
       if (values.find(complement) != values.end()) {
-        result.push_back(values.at(complement));
+        result.push_back(values[complement]);
         result.push_back(i);
         return result;
       }
-      values.insert(pair<int, int>(nums.at(i), i));
+      values.insert(pair<int, int>(nums[i], i));
     }
   }
 };
