@@ -1,6 +1,5 @@
 # sandbox
 
-* [exercism](./excercism) – https://exercism.io/
 * [codewars](./codewars) – https://codewars.com/
 * [codefights](./codefights) – https://www.codefights.com/
 * [hackerrank](./hackerrank) – https://www.hackerrank.com/
